@@ -6,6 +6,13 @@ If the argument is empty, null or undefined, return "Hello World":
 * sayHello(null) -> "Hello World"
 
 */
+function sayHello (i){
+    if (i === null || i === "" || i === undefined){
+    return ("Hello World");
+} else {
+ return (`Hello ${i}`);
+}
+}
 
 // TODO add your code here
 

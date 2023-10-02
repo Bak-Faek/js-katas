@@ -6,7 +6,14 @@ Create a function `sum` which returns the sum of all the multiples of 3 or 5 bel
 Note: If the number is a multiple of both 3 and 5, only count it once.
 
 */
-
+function sum (a){
+    let result = 0;
+    for (i=0; i < a; i++){
+        if (i % 3 === 0 || i % 5 === 0){
+            result = result + i;
+       }
+}   return result;
+}
 // TODO add your code here
 
 // Begin of tests
